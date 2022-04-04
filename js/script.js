@@ -16,6 +16,6 @@ function calculate () {
   const perimeter = 2 * (length + width)
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + area + ' cm²'
-  document.getElementById('perimeter').innerHTML = 'Perimeter is: ' + perimeter + ' cm'
+  document.getElementById('area').innerHTML = '<p>Area is: ' + area + ' cm².</p>'
+  document.getElementById('perimeter').innerHTML = '<p>Perimeter is: ' + perimeter + ' cm.</p>'
 }
